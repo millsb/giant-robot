@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="#pattern of (patterns | async)">
+        <p><a href="#">{{pattern.name}}</a></p>
+        <GrPatternDetail [patternData]="pattern"></GrPatternDetail>
+    </li>
+</ul>

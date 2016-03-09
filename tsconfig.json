@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": false,
+    "removeComments": true,
+    "noEmitHelpers": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist/out"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "generator",
+    "logs",
+    "tools",
+    "typings"
+  ]
+}

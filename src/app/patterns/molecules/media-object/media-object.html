@@ -1,0 +1,22 @@
+<!-- start Media Object - Default (no width) -->
+<div class="media-object">
+    <a href="#" class="media-object__media" [ngClass]="orientationClass()">
+        <figure>
+            <img src="{{mediaUrl}}">
+        </figure>
+    </a>
+    <div class="media-object__body">
+        <h4 class="media-object__heading">
+            <a href="#" title="Page Title">{{ title }}</a>
+        </h4>
+        <div class="media-object__meta">
+            <ng-content select="[meta]"></ng-content>
+
+        </div>
+        <p class="media-object__description">
+            <ng-content select="[description]"></ng-content>
+        </p>
+        <a href="#" class="media-object__link" title="Read More">Read More</a>
+    </div>
+</div>
+<!-- end Media Object - Default (no width) -->
